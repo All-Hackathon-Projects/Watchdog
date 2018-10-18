@@ -1,0 +1,80 @@
+<!--
+ * CoreUI - Open Source Bootstrap Admin Template
+ * @version v1.0.0
+ * @link http://coreui.io
+ * Copyright (c) 2017 creativeLabs Łukasz Holeczek
+ * @license MIT
+ -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://code.highcharts.com/stock/highstock.js"></script>
+    <script src="/js/dashboard-roster.js"></script>
+    
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="shortcut icon" href="/res/dorg.png">
+    <title>Watchdog</title>
+    
+    <!-- Main styles for this application -->
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/dashboard-roster.css" rel="stylesheet">
+</head>
+
+<body class="app header-fixed sidebar-fixed aside-menu-fixed aside-menu-hidden">
+    <header class="app-header navbar">
+        <button class="navbar-toggler mobile-sidebar-toggler d-lg-none mr-auto" type="button">☰</button>
+        <a class="navbar-brand" href="#"></a>
+        <button class="navbar-toggler sidebar-minimizer d-md-down-none" type="button">☰</button>
+
+    </header>
+
+    <div class="app-body">
+        <div class="sidebar">
+            <nav class="sidebar-nav">
+                <ul class="nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="dashboard.html"><i class="icon-speedometer"></i> Dashboard <span class="badge badge-primary"></span></a>
+                    </li>
+                     <li class="nav-item">
+                        <a class="nav-link active" href="roster.html"><i class="icon-speedometer"></i> Roster <span class="badge badge-primary"></span></a>
+                    </li>
+                     <li class="nav-item">
+                        <a class="nav-link" href="history.html"><i class="icon-speedometer"></i> History <span class="badge badge-primary"></span></a>
+                    </li>
+                     <li class="nav-item">
+                        <a class="nav-link" href="#" id="logout-button"><i class="icon-speedometer"></i> Logout <span class="badge badge-primary"></span></a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+
+        <!-- Main content -->
+        <main class="main">
+            <div id="container-fluid" class="container-fluid">
+                <div id="roster" class="app-component roster">
+                    <ul id="list" class="list-group">
+                        
+                    </ul>
+                </div>
+                <div id="student-data-container" class="app-component">
+                    
+                </div>
+                 
+            </div>
+
+        </main>
+        
+
+
+    </div>
+
+    <footer class="app-footer">
+        <span class="float-right">Powered by Team Hexed</span>
+    </footer>
+</body>
+
+</html>

@@ -1,0 +1,50 @@
+html{
+    overflow-y: hidden;
+    height: 100%;
+}
+
+body{
+    margin: 0px;
+    padding: 0px;
+    height: 100%;
+}
+
+
+
+#c{
+    margin-top: 55px;
+    height: 100%;
+    display: flex;
+    flex-flow: column wrap;
+    
+}
+
+#vidcontainer
+{
+    text-align: center;
+    height: 100%;
+    width: 60%;
+
+}
+#video
+{
+    /*height:80%
+        To Show Info & Vid Title*/
+    height: 90%;
+    width: 100%;
+}
+#info
+{
+    width: 40%;
+    height: 50%
+}
+#chatbot
+{
+    width: 40%;
+    height: 50%;
+}
+
+#vid-title
+{
+    font-size: 1.5em;
+}

@@ -1,0 +1,36 @@
+html {
+    overflow-y: hidden;
+}
+
+li {
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+
+.student-id:hover {
+    background: #DDD;
+}
+.roster {
+    float: left;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    width: 125px;
+    overflow: hidden;
+    overflow-y: scroll;
+    background-color: #FFF;
+}
+
+.app-component {
+    display: inline-block;
+}
+.list-group li {
+    width: 250px;
+}
+
+#student-data-container {
+    margin-top: 10px;
+    height: 300px;
+    background-color: #FFF;
+}

@@ -1,0 +1,28 @@
+.app-main {
+    display: block;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    height: 100%;
+    width: auto;
+}
+.app-sub {
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    height: 100%;
+    width: auto;
+}
+
+.sub-graph {
+    display: inline-block;
+}
+
+#video-container {
+    width: 319px;
+    height: 200px;
+}
+#webcamStream {
+    width: 319px;
+    height: 200px;
+}

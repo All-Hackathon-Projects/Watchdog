@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Watchdog</title>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<!-- CSS -->
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:400,100,300,500">
+	<link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+	<link rel="stylesheet" href="assets/font-awesome/css/font-awesome.min.css">
+	<link rel="stylesheet" href="assets/css/form-elements.css">
+	<link rel="stylesheet" href="assets/css/style.css">
+	<link rel="stylesheet" href="assets/css/mycss.css">
+	<link rel="shortcut icon" href="res/dorg.png">
+
+
+</head>
+
+<body>
+
+	<!-- Top content -->
+	<div class="top-content">
+
+		<div class="inner-bg">
+			<div class="container">
+				<div class="row">
+					<div class="col-sm-5">
+						<div class="form-box">
+							<div class="form-top">
+								<div class="form-top-left">
+									<h3>Login</h3>
+									<p>For your convenience, please use the following logins and passwords.</p>
+									
+									<p>Teacher: hello@mhacks.com, mhackspassword</p>
+									<p>Student: helloagain@mhacks.com, mhackspassword</p>
+								</div>
+								<div class="form-top-right">
+									<i class="fa fa-lock"></i>
+								</div>
+							</div>
+							<div class="form-bottom">
+								<form role="form" action="" method="post" class="login-form" id="loginForm">
+									<div class="form-group">
+										<label class="sr-only" for="loginUsername">Username</label>
+										<input type="text" name="loginUsername" placeholder="Username..." class="form-username form-control" id="loginUsername">
+									</div>
+									<div class="form-group">
+										<label class="sr-only" for="loginPassword">Password</label>
+										<input type="password" name="loginPassword" placeholder="Password..." class="form-password form-control" id="loginPassword">
+									</div>
+									<button type="submit" class="btn" id="loginButton">Sign In</button>
+								</form>
+							</div>
+						</div>
+
+
+					</div>
+
+					<div class="col-sm-1 middle-border"></div>
+					<div class="col-sm-1"></div>
+
+					<div class="col-sm-5">
+
+						<div class="form-box">
+							<div class="form-top">
+								<div class="form-top-left">
+									<h3>Sign up</h3>
+								</div>
+								<div class="form-top-right">
+									<i class="fa fa-pencil"></i>
+								</div>
+							</div>
+							<div class="form-bottom">
+								<form role="form" action="" method="post" class="registration-form">
+									<div class="form-group">
+										<label class="sr-only" for="signupFirstName">First Name</label>
+										<input type="text" name="signupFirstName" placeholder="First Name..." class="form-first-name form-control" id="signupFirstName">
+									</div>
+									<div class="form-group">
+										<label class="sr-only" for="signupLastName">Last Name</label>
+										<input type="text" name="signupLastName" placeholder="Last Name..." class="form-last-name form-control" id="signupLastName">
+									</div>
+									<div class="form-group">
+										<label class="sr-only" for="signupEmail">Email</label>
+										<input type="text" name="signupEmail" placeholder="Email..." class="form-email form-control" id="signupEmail">
+									</div>
+									<div class="form-group">
+										<label class="sr-only" for="signupPassword">Password</label>
+										<input type="password" name="signupPassword" placeholder="Password..." class="form-password form-control" id="signupPassword">
+									</div>
+									<select id="teacherStudent">
+										<option id="teacher" value="0">I am a Student</option>
+										<option id="student" value="1">I am a Teacher</option>
+									</select>
+									<button type="submit" class="btn" id="signupButton">Sign Up</button>
+								</form>
+							</div>
+						</div>
+					</div>
+				</div>
+
+			</div>
+		</div>
+
+	</div>
+
+
+	<!-- Javascript -->
+	<script src="assets/js/jquery-1.11.1.min.js"></script>
+	<script src="assets/bootstrap/js/bootstrap.min.js"></script>
+	<script src="assets/js/jquery.backstretch.min.js"></script>
+	<script src="assets/js/scripts.js"></script>
+	<script src="/js/loginregister.js"></script>
+
+	<!--[if lt IE 10]>
+            <script src="assets/js/placeholder.js"></script>
+        <![endif]-->
+
+</body>
+
+</html>
